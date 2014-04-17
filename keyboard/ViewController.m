@@ -37,7 +37,9 @@ NSString *text = @"";
 
 -(IBAction)keyboardclear:(id)sender {
     
-    [firstTextField setText: @" "];
+    text = @" ";
+    [firstTextField setText:text];
+    
 }
 
 
