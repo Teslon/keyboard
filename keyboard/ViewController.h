@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *firstTextField;
+
+
+}
+
+-(IBAction)keyboardbuttons:(id)sender;
+-(IBAction)keyboardclear:(id)sender;
 
 @end

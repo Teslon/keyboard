@@ -10,9 +10,12 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
+
+NSString *text = @"";
 
 - (void)viewDidLoad
 {
@@ -25,5 +28,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)button1:(id)sender {
+    
+    text = [text stringByAppendingString:[sender currentTitle]];
+    [firstTextField setText:text];
+}
+
+-(IBAction)keyboardclear:(id)sender {
+    
+    [firstTextField setText: @" "];
+}
+
+
 
 @end

@@ -21,6 +21,8 @@
 		8E6AB6B619009408003AA66A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6AB69819009408003AA66A /* UIKit.framework */; };
 		8E6AB6BE19009408003AA66A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E6AB6BC19009408003AA66A /* InfoPlist.strings */; };
 		8E6AB6C019009408003AA66A /* keyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AB6BF19009408003AA66A /* keyboardTests.m */; };
+		8E6AB6CA190099F5003AA66A /* formulas_back_pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6AB6C9190099F5003AA66A /* formulas_back_pink.png */; };
+		8E6AB6CC190099F9003AA66A /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6AB6CB190099F9003AA66A /* keyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8E6AB6BB19009408003AA66A /* keyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keyboardTests-Info.plist"; sourceTree = "<group>"; };
 		8E6AB6BD19009408003AA66A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E6AB6BF19009408003AA66A /* keyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyboardTests.m; sourceTree = "<group>"; };
+		8E6AB6C9190099F5003AA66A /* formulas_back_pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formulas_back_pink.png; sourceTree = "<group>"; };
+		8E6AB6CB190099F9003AA66A /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		8E6AB69A19009408003AA66A /* keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				8E6AB6C9190099F5003AA66A /* formulas_back_pink.png */,
+				8E6AB6CB190099F9003AA66A /* keyboard.png */,
 				8E6AB6A319009408003AA66A /* AppDelegate.h */,
 				8E6AB6A419009408003AA66A /* AppDelegate.m */,
 				8E6AB6A619009408003AA66A /* Main.storyboard */,
@@ -231,6 +237,8 @@
 				8E6AB6AD19009408003AA66A /* Images.xcassets in Resources */,
 				8E6AB69F19009408003AA66A /* InfoPlist.strings in Resources */,
 				8E6AB6A819009408003AA66A /* Main.storyboard in Resources */,
+				8E6AB6CC190099F9003AA66A /* keyboard.png in Resources */,
+				8E6AB6CA190099F5003AA66A /* formulas_back_pink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
