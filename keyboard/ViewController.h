@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController {
     IBOutlet UITextField *firstTextField;
+    IBOutlet UITextField *secondTextField;
 
 
 }
